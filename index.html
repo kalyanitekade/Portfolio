@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="KALYANI, portfolio, KALYANI, Web dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Kalyani's Portfolio. Machine learning, Python Development, Data Analyst and Business Intelligence" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title>Portfolio | KALYANI</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- navbar starts -->
+<header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> </a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- navbar ends -->
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <h2>Hi There, I'm Kalyani </h2>
+        <p>I am into <span class="typing-text"></span></p>
+        <a href="#about" class="btn"><span>About Me</span>
+            <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/kalyanitekade/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/__.kalyani.__/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- hero section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+        <div class="image">
+            <img class="tilt" src="assets/images/pic.jpeg" alt="">
+        </div>
+        <div class="content">
+            <h3>I'm Kalyani</h3>
+            <p>As a Data Analyst and aspiring Data Scientist currently pursuing a Master’s in Computer Science at Arizona State University, graduating in May 2025. I bring hands-on experience from Unilever, the Centre for Artificial Intelligence & Robotics, and the Government of India. Specializing in data analysis and machine learning, I adeptly utilize Python, SQL, Excel, and Power BI. My proficiency in statistical analysis and data mining enables me to deliver projects that significantly enhance data accuracy and model performance. Passionate about transforming complex data sets into actionable insights, I am actively seeking internship and full-time opportunities to apply my skills in strategic decision-making and innovative problem-solving.</p>
+            <div class="resumebtn">
+                <a href="assets/images/Tekade_Kalyani_Resume.pdf" target="_blank" class="btn"><span>Resume</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- education section starts -->
+<section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i>Education</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img draggable="false" src="assets/images/educat/asu.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Master of Science in Computer Science</h3>
+                <p>Arizona State University | May 2025</p>
+                <h4>Relevant Coursework</h4>
+                <ul class="coursework-list">
+                    <li>Data Mining</li>
+                    <li>Statistical Machine Learning</li>
+                    <li>Data Processing at Scale</li>
+                    <li>Time Series Analysis/Forecasting</li>
+                    <li>Multimedia and Webdatabases</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img draggable="false" src="assets/images/educat/msrit.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Bachelor of Engineering in Electronics and Communication</h3>
+                <p>Ramaiah Institute of Technology | May 2023</p>
+                <h4>Relevant Coursework</h4>
+                <ul class="coursework-list">
+                    <li>Machine and Deep Learning</li>
+                    <li>Data Structures using C++</li>
+                    <li>Fundamentals of Computing</li>
+                    <li>Cryptography, Network and Cyber Security</li>
+                    <li>Information, Learning and Inference</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- education section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills </h2>
+    <div class="container">
+        <div class="row" id="skillsContainer">
+            <!-- Skills will be dynamically loaded here -->
+        </div>
+    </div>
+</section>
+<!-- skills section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+    <div class="timeline">
+        <div class="container right">
+            <div class="content">
+                <div class="tag">
+                    <h1>Unilever</h1>
+                </div>
+                <div class="desc">
+                    <h2>Data Analyst</h2>
+                    <p>January 2023 – August 2023</p>
+                    <ul>
+                        <li>Implemented ETL processes for data cleaning and standardization on data points for the Unilever Technology Portfolio Dashboard using Apache Spark, resulting in improved data quality and accuracy for visualization in Power BI; achieved a 30% reduction in data inconsistencies.</li>
+                        <li>Automated the ETL pipeline using Apache Kafka for real-time data ingestion, incorporating stream processing and real-time analytics to ensure efficient data flow and timely updates for accurate visualization.</li>
+                        <li>Optimized data collection and transformation by designing an advanced Excel system featuring auto-fill functions and dropdown menus, increasing update frequency by 25%.</li>
+                        <li>Leveraged Microsoft Teams and Outlook to collaborate with 50 teams globally, enhancing Excel-based data collection processes, which led to a 40% reduction in data gaps and a 50% increase in timely submissions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container left">
+            <div class="content">
+                <div class="tag">
+                    <h1>Center for Artificial Intelligence and Robotics</h1>
+                </div>
+                <div class="desc">
+                    <h2>Machine Learning Researcher</h2>
+                    <p>January 2022 - December 2022</p>
+                    <ul>
+                        <li>Ensured data quality and consistency for IMU Calibration by performing data wrangling and preprocessing using SQL, Pandas and Scikit-learn, achieving a 95% reduction in data anomalies and ensuring optimal data readiness for model training.</li>
+                        <li>Built and implemented machine learning algorithms such as Support Vector Machines, Random Forests, and Deep Neural Networks using TensorFlow and PyTorch, resulting in a 20% increase in model accuracy and performance.</li>
+                        <li>Enhanced Python programming skills, mastering efficient code execution and high-level functionalities for robust AI/ML models, leading to a 30% improvement in code efficiency and model scalability.</li>
+                        <li>Analyzed results and made informed decisions through data analysis, model development, and evaluation, honing critical thinking skills.</li>
+                        <li>Tackled real-world AI/ML challenges by transitioning from following instructions to formulating research questions and challenges, contributing to innovative data modeling solutions and improving project outcomes.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <div class="tag">
+                    <h1>Government of India</h1>
+                </div>
+                <div class="desc">
+                    <h2>Data Scientist Intern</h2>
+                    <p>June 2021 – December 2021</p>
+                    <ul>
+                        <li>Improved neural network interpretability for image classification by designing a Convolutional Neural Network (CNN) and applying LIME, SHAP, and Exploratory Data Analysis (EDA), increasing model interpretability by 30%.</li>
+                        <li>Evaluated various CNN architectures, including LeNet-5, ResNet-50, VGG, and YOLO, improving classification accuracy by 20%.</li>
+                        <li>Applied techniques for object detection, image classification, and semantic segmentation, achieving a 25% reduction in error rates.</li>
+                        <li>Conducted Exploratory Data Analysis (EDA) using Python libraries like Pandas, Matplotlib, and Seaborn, enhancing data-driven decision-making and improving model accuracy by 10%.</li>
+                        <li>Created detailed technical documentation, presentations, and visualization using Microsoft Suite (Word, PowerPoint, Excel), leading to a 15% reduction in development time for future projects.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- experience section ends -->
+
+<!-- Project section starts -->
+<section id="projects" class="section scrollspy">
+    <h2 class="heading page-title"><i class="fas fa-project-diagram"></i> Projects </h2>
+    <div class="container">
+        <!-- First row of projects -->
+        <div class="row">
+            <!--Intellibot-->
+            <div class="col s12 m6 l4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="Intellibot" src="assets/images/projects/blog.jpg" class="activator" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Intellibot<i class="mdi-navigation-more-vert right"></i>
+                            <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade/Intellibot" target="_blank"><i class="fab fa-github"></i></a>
+                        </span>
+                        <p>A Chatbot Intent Recognition System</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                        <ul>
+                            <li><b>Tools:</b> Pandas, NumPy, Scikit-learn, TensorFlow, Keras, NLTK, Matplotlib</li>
+                            <li>This project involves the development of a Chatbot Intent Recognition System that leverages machine learning techniques to accurately understand user intents from text inputs.</li>
+                            <li>Developed a machine learning pipeline for training a neural network model using TensorFlow and Keras, designed specifically for intent recognition tasks.</li>
+                            <li>Utilized clustering techniques to group similar intents and improve the accuracy and efficiency of the chatbot's response system.</li>
+                            <li>Evaluated the model's performance using various metrics, including accuracy, precision, recall, and F1-score, to ensure high reliability and performance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Ride Forecaster-->
+            <div class="col s12 m6 l4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="Intellibot" src="assets/images/projects/gan.jpg" class="activator" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Ride Forecaster<i class="mdi-navigation-more-vert right"></i>
+                            <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade/Ola-Bike-Ride-Request-Forecast" target="_blank"><i class="fab fa-github"></i></a>
+                        </span>
+                        <p>Predictive Modeling for Ride Request Demand</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                        <ul>
+                            <li><b>Tools:</b> Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow/Keras, Pandas Profiling, HTML</li>
+                            <li>The project aims to forecast ride request demand using historical data.</li>
+                            <li>The HTML report is generated using Pandas Profiling provides a comprehensive overview of the dataset, including descriptive statistics and correlation analysis.</li>
+                            <li>Various machine learning models, including Decision Trees, Random Forest, Support Vector Machines, and Neural Networks, were trained and evaluated to optimize performance.</li>
+                            <li>A prediction pipeline is created to process new input data and generate predictions using the trained model.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Loyalty Booster-->
+            <div class="col s12 m6 l4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="Intellibot" src="assets/images/projects/iras.jpeg" class="activator" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Loyalty Booster<i class="mdi-navigation-more-vert right"></i>
+                            <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade/Predicting-Customer-Churn" target="_blank"><i class="fab fa-github"></i></a>
+                        </span>
+                        <p>Optimizing Customer Retention with Ensemble Models</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                        <ul>
+                            <li><b>Tools:</b> Pandas, NumPy, Scikit-learn, Matplotlib, SMOTE</li>
+                            <li>The project involves building a machine learning model to classify and predict customer churn.</li>
+                            <li>Developed feature engineering and model validation techniques to enhance predictive performance, aiding in better identification of at-risk customers.</li>
+                            <li>SMOTE (Synthetic Minority Over-sampling Technique) is used to address class imbalance, ensuring the minority class is well-represented.</li>
+                            <li>Various machine learning models, including Logistic Regression, Random Forest, AdaBoost, and Gradient Boosting, are trained and evaluated using metrics like ROC-AUC and confusion matrices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of first row -->
+
+        <!-- Second row of projects -->
+        <div class="row">
+            <!--Resume Evaluator-->
+            <div class="col s12 m6 l4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="Intellibot" src="assets/images/projects/ml.jpg" class="activator" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Resume Evaluator<i class="mdi-navigation-more-vert right"></i>
+                            <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade/Resume-Evaluator" target="_blank"><i class="fab fa-github"></i></a>
+                        </span>
+                        <p>A system that matches your resume to the job description.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                        <ul>
+                            <li><b>Tools:</b> Pandas, NumPy, Scikit-learn, Matplotlib, Gensim, NLTK, Flask</li>
+                            <li>The project aims to build a resume matching system that evaluates how well a candidate's resume matches a given job description.</li>
+                            <li>The matching algorithm utilizes the Doc2Vec model from Gensim to convert resumes and job descriptions into numerical vectors.</li>
+                            <li>The model is trained and evaluated using metrics like ROC-AUC and confusion matrices to ensure its accuracy.</li>
+                            <li>A Flask application is built to provide a user interface for uploading resumes and job descriptions, and to display the matching results in a user-friendly manner.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Sales Predictor-->
+            <div class="col s12 m6 l4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="Intellibot" src="assets/images/projects/musicplayer.jpg" class="activator" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Sales Predictor<i class="mdi-navigation-more-vert right"></i>
+                            <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade/Predicting-Rosman-Store-Sale" target="_blank"><i class="fab fa-github"></i></a>
+                        </span>
+                        <p>Forecasting Daily Sales for Rossmann Stores</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                        <ul>
+                            <li><b>Tools:</b> Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, Flask, Joblib</li>
+                            <li>The project focuses on predicting sales using a machine learning model.</li>
+                            <li>The process involves data cleaning to handle missing values, transforming categorical features into numerical values using encoding techniques, and assessing feature importance to identify significant predictors for sales.</li>
+                            <li>The machine learning models used include Linear Regression, Stochastic Gradient Descent (SGD) Regression, Random Forest Regression, and Decision Tree Regression.</li>
+                            <li>Decision Tree model is deployed in a Flask web application, allowing users to input data and receive sales predictions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Feature Extraction-->
+            <div class="col s12 m6 l4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="Intellibot" src="assets/images/projects/recommender.jpg" class="activator" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Image Similarity<i class="mdi-navigation-more-vert right"></i>
+                            <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade/Feature-Extraction-and-Analysis-for-the-Caltech101-Dataset" target="_blank"><i class="fab fa-github"></i></a>
+                        </span>
+                        <p>Identifying similar images using multiple feature descriptors.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                        <ul>
+                            <li><b>Tools:</b> PyTorch, Torchvision, Pandas, NumPy, PIL, Scikit-image, Matplotlib, Scipy</li>
+                            <li>The project aims to identify similar images in the Caltech101 dataset using various feature descriptors.</li>
+                            <li>Color moments (mean, standard deviation, skewness) and histogram-oriented gradients (HOG) are calculated to capture image features.</li>
+                            <li>These feature descriptors are then used to compute distances (Euclidean, Cosine, Pearson, etc.) between images.</li>
+                            <li>The system utilizes concurrent processing to enhance efficiency and visualizes the most similar images based on the computed distances.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of second row -->
+    </div>
+</section>
+<!-- project section ends -->
+
+<!-- footer section starts -->
+<section class="footer" id="contact">
+    <div class="box-container">
+        <div class="box">
+            <h3>Kalyani's Portfolio</h3>
+            <p>Thank you for visiting my personal portfolio website.<br>Connect with me over socials.<br></p>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+            <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+            <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+            <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
+            <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
+            <a href="#projects"><i class="fas fa-chevron-circle-right"></i> Projects</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <p><i class="fas fa-phone"></i> +1 4807142584</p>
+            <p><i class="fas fa-envelope"></i> kalyanitekade29@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> Tempe, USA</p>
+            <div class="share">
+                <a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/kalyanitekade/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="github" aria-label="GitHub" href="https://github.com/kalyanitekade" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/__.kalyani.__/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/ikiran-dev"> Kalyani</a></h1>
+</section>
+<!-- footer section ends -->
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- particle.js links -->
+<script src="assets/js/particles.min.js"></script>
+<script src="assets/js/app.js"></script>
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
